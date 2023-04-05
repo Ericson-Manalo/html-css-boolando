@@ -17,11 +17,27 @@ body{
     margin: auto;
 }
 
-.column{
+.first-column,
+.second-column,
+.third-column,
+.fourth-column,
+.fifth-column,
+.sixth-column{
     position: relative;
-
     text-align: center;
 }
+
+.hover-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.hover-img:hover{
+    opacity: 1;
+}
+
 
 .size-container{
     width: 70%;
@@ -120,6 +136,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 
 img{
     width: 100%
