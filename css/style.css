@@ -4,3 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container{
+    width: 80%;
+    height: 60px;
+}
+
+header{
+    background-color: #e46107;;
+}
