@@ -48,8 +48,9 @@ body{
     margin-top: 30px;
 }
 
-.first-row{
-    justify-content: space-around;
+.first-row,
+.second-row{
+    justify-content: space-between;
 }
 
 .discount{
@@ -111,6 +112,15 @@ body{
     text-decoration: line-through;
 }
 
+.second-row{
+    margin-bottom: 40px;
+}
+
+.last-items{
+    justify-content: space-between;
+    align-items: center;
+}
+
 img{
     width: 100%
 }
@@ -125,3 +135,10 @@ li{
     list-style: none;
     padding-right: 15px;
 }
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px;
+}
+
