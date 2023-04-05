@@ -43,20 +43,38 @@ body{
     width: 33.33%;
 }
 
-.discount-fifthy{
+.discount{
     position: absolute;
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+}
+.fifthy-discount{
     left: 0;
     bottom: 55px;
-    background-color: red;
+}
+
+.eco-friendly{
+    position: absolute;
+    background-color: green;
     color: white;
     padding: 3px 10px;
 }
 
 .sustainable{
+    left: 65px;
+    bottom: 55px
+}
+
+.heart-logo{
     position: absolute;
-    background-color: green;
-    color: white;
-    padding: 3px 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    right: 0;
+    top: 15px;
+    text-align: center;
 }
 
 img{
