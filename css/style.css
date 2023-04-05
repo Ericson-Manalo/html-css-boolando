@@ -13,14 +13,11 @@ body{
     display: flex;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .main-container{
+    max-width: 1200px;
     width: 80%;
     height: 60px;
+    margin: 0 auto;
 }
 
 .nav-bar,
@@ -35,6 +32,12 @@ body{
 .justify-between{
     justify-content: space-between;
     align-items: center;
+}
+
+
+
+img{
+    width: 33.33%;
 }
 
 header{
