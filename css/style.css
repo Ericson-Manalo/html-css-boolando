@@ -13,6 +13,10 @@ body{
     display: flex;
 }
 
+.relative{
+    position: relative;
+}
+
 .main-container{
     max-width: 1200px;
     width: 80%;
@@ -34,10 +38,29 @@ body{
     align-items: center;
 }
 
+.box-row{
+    margin-top: 40px;
+    width: 33.33%;
+}
 
+.discount-fifthy{
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+}
+
+.sustainable{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 3px 10px;
+}
 
 img{
-    width: 33.33%;
+    width: 100%
 }
 
 header{
@@ -48,8 +71,4 @@ header{
 li{
     list-style: none;
     padding-right: 15px;
-}
-
-nav ul{
-
 }
