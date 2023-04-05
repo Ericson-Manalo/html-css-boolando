@@ -119,7 +119,7 @@ body{
 }
 
 .discounted-price{
-    font-size: 14px;
+    font-size: 25px;
     color: red;
 }
 
@@ -137,8 +137,16 @@ body{
     align-items: center;
 }
 
+.symbols{
+    font-size: 25px;
+}
+
 a{
     text-decoration: none;
+}
+
+a.heart-logo:hover{
+    color: red;
 }
 
 img{
